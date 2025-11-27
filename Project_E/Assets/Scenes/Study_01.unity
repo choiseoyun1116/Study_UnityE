@@ -383,6 +383,53 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1 &711742536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 711742538}
+  - component: {fileID: 711742537}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &711742537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711742536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 673bf216b16924a4e8a85e8a57741ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Control
+  a: 10
+  b: 3
+  fruit: "\uC0AC\uACFC"
+--- !u!4 &711742538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711742536}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.3188, y: 0, z: -3.7035}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,6 +532,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0567881faca00b747af94d033c8c0fbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Study
+  say: 
+  text: 0
 --- !u!23 &993161369
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -677,3 +726,4 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 993161371}
   - {fileID: 1800625474}
+  - {fileID: 711742538}
