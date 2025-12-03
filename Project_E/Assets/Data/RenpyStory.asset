@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4799f5d33fe2d14385c5a0a5d48ac77, type: 3}
+  m_Name: RenpyStory
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Data/Data.xlsx
+  WorksheetName: RenpyStory
+  dataArray:
+  - id: 1001
+    bg: 1001
+    character: 104
+    text: 11001
+    image_l: 6600000000000000
+    image_lm: 6900000000000000
+    image_m: 6800000001000000
+    image_rm: 6700000000000000
+    image_r: 6500000000000000
+  - id: 1002
+    bg: 1002
+    character: 105
+    text: 11002
+    image_l: 6600000000000000
+    image_lm: 6900000001000000
+    image_m: 6800000001000000
+    image_rm: 6700000000000000
+    image_r: 6500000000000000
+  - id: 1003
+    bg: 1003
+    character: 101
+    text: 11003
+    image_l: 6600000000000000
+    image_lm: 6900000000000000
+    image_m: 6800000000000000
+    image_rm: 6700000000000000
+    image_r: 6500000001000000
